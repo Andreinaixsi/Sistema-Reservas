@@ -1,7 +1,7 @@
-#Requisitos Funcionales
+# Requisitos Funcionales
 Este documento detalla las funcionalidades del sistema de gestión de reservas, estructuradas para su implementación técnica.
 
-##Autenticación y Gestión de Usuarios
+## Autenticación y Gestión de Usuarios
 
 | ID | Requisito | Descripción | Actor | Prioridad |
 | :--- | :--- | :--- | :--- | :--- |
