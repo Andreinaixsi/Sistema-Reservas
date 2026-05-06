@@ -1,4 +1,4 @@
- #Requisitos Funcionales
+#Requisitos Funcionales
 
 ##RF-001 -- Registro de Usuario
 
