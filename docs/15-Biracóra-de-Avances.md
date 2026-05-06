@@ -13,8 +13,8 @@
 - Requerimientos funcionales y no funcionales
 
 **Documentos actualizados:**
-- [Requisitos Funcionales](03-Requirimientos-Funcionales.md) — Especificación de Requisitos Funcionales.
-- [Requisitos No Funcionales](04-Requirimientos-No-Funcionales.md)— Especificación de Requisitos No Funcionales
+- [Requisitos Funcionales](03-Requerimientos-Funcionales.md) — Especificación de Requisitos Funcionales.
+- [Requisitos No Funcionales](04-Requerimientos-No-Funcionales.md)— Especificación de Requisitos No Funcionales
 
 **Código modificado:**
 - No aplica (fase de planificación)
