@@ -185,7 +185,7 @@
 - [Modelo de datos](10-Modelo-de-Datos.md) Entidad: organizations actualizada 
 - [Casos de uso](05-Casos-de-Uso.md) CU-012 (Unirse por Código), CU-006, CU-008, CU-009 actualizados 
 - [Api e interfaces](11-Api-e-Interfaces.md) API-002, API-004, API-015, API-016, API-017 
-- [Diseño Frontend](08-Diseño-Frontend.md) Estructura de Pantallas actualizada ✅
+- [Diseño Frontend](08-Diseño-Frontend.md) Estructura de Pantallas actualizada 
 
 **Código modificado:**
 -
@@ -212,3 +212,17 @@
 
 **Código modificado:**
 - Base de datos Neon — Tabla organizations actualizada
+
+**Problemas encontrados:**
+-Falla en la cmd de la pc , no se podian instalar las dependencias , ni utilizar el git
+
+## Registro #7 — Avances hasta ahora
+
+**Fecha:** 16 de Junio de 2026
+
+**Avance realizado:**
+- Se realizaron pruebas a la aplicacion web. Hubo errores principales ccon el login porque abria directamente al usuario administrador pero se solucionó
+- Nos encontramos con varios problemas en la pc no pudimos utilizar git y tuvimos que utlizar una laptop para subir el proyecto a github , y se tuvo el error hacer un commit inicial limpio que borro todo lo que estaba de decumentación en el respositorio, pero se solucionó hasta el momento
+
+
+
