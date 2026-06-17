@@ -148,7 +148,7 @@
 -  Error con la restricción `EXCLUDE` usando `tstzrange` en Neon (incompatible). Solución: eliminar la restricción de la BD y mover la validación de solapamiento al backend.
 
 **Próximo paso:**
-- [Imagenes neon y postgre](assest/imagenes/Neon1.jpeg)
+- [Imagenes neon y postgre](1_docs/assets/im%C3%A1genes/Neon1.jpeg)
 ---
 
 ## Registro #7 — Api e interfaces
