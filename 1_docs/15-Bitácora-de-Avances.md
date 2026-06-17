@@ -202,6 +202,7 @@
 ## Registro #7 — Actualizacion base de datos, 
 
 **Fecha:** 6 de Junio de 2026
+
 **Avance realizado:**
 - Creación de la estructura de carpetas del proyecto (backend, frontend, database)
 - Configuración del entorno virtual de Python (venv)
