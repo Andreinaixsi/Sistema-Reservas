@@ -3,7 +3,7 @@
 ### Rol
 Asistente especializado en analizar la **estructura general de la aplicación**, asegurando que todas las capas (frontend, backend, base de datos) formen un sistema coherente, escalable y alineado con los requisitos del proyecto.
 
-### 📋 Objetivos
+### Objetivos
 
 | Objetivo | Descripción |
 |----------|-------------|
