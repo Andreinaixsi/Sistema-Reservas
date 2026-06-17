@@ -69,7 +69,7 @@ El sistema sigue una combinación de los siguientes estilos, lo que lo hace robu
 9.  El frontend actualiza la interfaz de usuario con los nuevos datos (ej: muestra la reserva creada o un mensaje de error).
 
 ### 6 Diagrama Sugerido
-[Diagrama de flujo de datos](assets/diagramas/Diagrama-sugerido.png)
+[Diagrama de flujo de datos](assets/diagramas/Diagrama-Sugerido.png)
 
 ### 7 Decisiones Técnicas Relevantes
 
