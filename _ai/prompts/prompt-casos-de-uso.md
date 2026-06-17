@@ -11,3 +11,11 @@ A partir de los siguientes requerimientos funcionales y perfiles de usuario, gen
 - Excepciones: errores posibles y cómo se manejan
 - Postcondiciones: estado final esperado del sistema
 - Requerimientos asociados: RF-XXX
+
+## Perfiles de Usuario
+
+1. **Usuario No Autenticado:** Persona que aún no ha iniciado sesión. Puede registrarse, crear una organización o iniciar sesión.
+
+2. **Usuario Autenticado (Miembro):** Persona que inició sesión y pertenece a al menos una organización con rol "member". Puede ver recursos, consultar disponibilidad, crear y cancelar sus propias reservas, y editar su perfil.
+
+3. **Administrador:** Usuario autenticado con rol "admin" en una organización. Tiene todos los permisos del miembro más: gestionar recursos (crear, editar, eliminar), configurar reglas de reserva, agregar miembros y cancelar cualquier reserva de su organización.
