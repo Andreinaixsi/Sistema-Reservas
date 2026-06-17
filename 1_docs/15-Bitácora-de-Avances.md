@@ -141,6 +141,7 @@
 - [Modelo de datos](10-Modelo-de-Datos.md)
 - [Arquitectura general](07-Arquitectura-general.md)
 - [Diseño Backend](09-Diseño-Backend.md)
+  
 **Código modificado:**
 - 
 
@@ -232,8 +233,10 @@
 **Problemas encontrados:**
 - El sistema actual carece de los módulos destinados a la Edición de Perfil de usuario y al mecanismo de Recuperación de Contraseñas, quedando registrados como requerimientos pendientes.
 - Se presentaron fallas operativas con la herramienta Git en la computadora principal, lo que impidió realizar el control de versiones de forma regular y obligó a utilizar un equipo portátil secundario.
-- l realizar el despliegue desde la estación alterna, un error en la ejecución del commit inicial limpio sobrescribió el historial en GitHub, ocasionando el borrado accidental de la documentación técnica previamente almacenada.
+- Al realizar el despliegue desde la estación alterna, un error en la ejecución del commit inicial limpio sobrescribió el historial en GitHub, ocasionando el borrado accidental de la documentación técnica previamente almacenada.
 
+- [portatil secundario](assets/imágenes/Laptop-git.png)
+- 
 ## Registro #7 — Manuales de usuario y técnico
 
 **Fecha:** 17 de Junio de 2026
