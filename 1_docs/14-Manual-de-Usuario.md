@@ -43,15 +43,19 @@ Si aún no tienes cuenta:
 
 Si quieres crear tu propia organización y ser su administrador:
 
-1. Haz clic en **"Crear Organización"** en la página de registro.
+1. Haz clic en **"Crea una Organización"** en la página de Inicio de sesión.
+
+<img width="1240" height="597" alt="Inicio de Sesion" src="https://github.com/user-attachments/assets/6f3603cd-8a7f-43d9-8bd4-a987fe4aca86" />
+
 2. Completa tus datos personales (email, contraseña, nombre).
 3. Completa los datos de la organización:
    - **Nombre**: ej. "Edificio Las Palmas".
    - **Tipo**: condominio, universidad, empresa, centro deportivo u otro.
-4. Haz clic en **"Crear Organización"**.
+   - Nomencaltura de como llama a las áreas
+4. Haz clic en **"Registrar Organización"**.
 5. ¡Listo! Eres el administrador de tu nueva organización.
 
----
+<img width="1240" height="694" alt="Registro Administrador-Organizacion" src="https://github.com/user-attachments/assets/0d43ac0b-b8f5-493f-9684-bb5fdb411ced" />
 
 ### 2.3 Inicio de Sesión
 
@@ -61,6 +65,9 @@ Si ya tienes cuenta:
 2. Ingresa tu **email** y **contraseña**.
 3. Haz clic en **"Entrar"**.
 4. Accederás al **Dashboard** principal.
+<img width="1240" height="597" alt="Ejemplo registro member" src="https://github.com/user-attachments/assets/4f3dffed-32b2-4136-b0c9-b548cc51d6da" />
+<img width="1240" height="597" alt="Ejemplo inicio" src="https://github.com/user-attachments/assets/30a9cd9c-da8d-4849-9386-a046466af457" />
+
 
 ---
 
@@ -71,16 +78,13 @@ Si tu administrador te dio un código de invitación:
 1. Inicia sesión en el sistema.
 2. Si no perteneces a ninguna organización, verás la pantalla de **Onboarding**.
 3. Ingresa el **código de invitación** (ej. `ABC12345`).
-4. Haz clic en **"Unirse"**.
+4. Haz clic en **"Unirse a la organización"**.
 5. Quedarás registrado como miembro de la organización y podrás ver sus espacios.
 
----
+<img width="1240" height="669" alt="Invitacion member" src="https://github.com/user-attachments/assets/5322163e-247d-4ed9-b763-d57ec646c6bd" />
 
-### 2.5 Recuperación de Contraseña
+<img width="1240" height="597" alt="Pantalla principal mamber" src="https://github.com/user-attachments/assets/789796b6-9daa-4d63-9692-9a7571bf9348" />
 
-> **Nota MVP:** En esta versión, la recuperación de contraseña se realiza contactando al administrador del sistema.
-
----
 
 ## 3. Flujos Principales
 
@@ -92,16 +96,19 @@ Este es el flujo más importante del sistema. Sigue estos pasos:
 
 **Paso 1: Acceder a los espacios disponibles**
 
-Desde el menú lateral (Sidebar), haz clic en **"Recursos"**. Verás una lista de los espacios disponibles en tu organización.
+Desde el menú lateral (Sidebar), haz clic en **"Áreas comúnes"**. Verás una lista de los espacios disponibles en tu organización.
+
+<img width="1240" height="597" alt="image" src="https://github.com/user-attachments/assets/49484afa-d77c-4e78-9b50-25b284579f68" />
 
 > **Nota:** Los nombres de los espacios pueden variar según tu organización. Por ejemplo, en un condominio podrían llamarse "Salones" o "Canchas".
 
 **Paso 2: Seleccionar un espacio**
 
-Haz clic en la tarjeta del espacio que quieres reservar. Verás una pantalla con:
-- El **calendario de disponibilidad** (horarios ocupados en rojo, libres en verde).
+Haz clic en **"Reservar"** en la tarjeta del espacio que quieres reservar. Verás una pantalla con:
+- La **Disponibilidad Horaria ** (horarios ocupados en rojo, libres en verde).
 - El **huso horario** de tu organización (importante si estás en otra zona).
 - Las **reglas de reserva**: duración máxima, días de anticipación, horario permitido.
+<img width="1240" height="675" alt="image" src="https://github.com/user-attachments/assets/963bcf00-5ed0-4e34-be32-af68aed09036" />
 
 **Paso 3: Elegir horario y confirmar**
 
@@ -112,8 +119,10 @@ Haz clic en la tarjeta del espacio que quieres reservar. Verás una pantalla con
 5. Si el horario está disponible, verás una **confirmación** con los detalles de tu reserva.
 
 > **En total: 3 clics** (Recursos → Espacio → Reservar). ¡Así de simple!
+> 
+<img width="1240" height="675" alt="image" src="https://github.com/user-attachments/assets/0968d676-893f-40ee-9247-56376ee1b952" />
 
----
+<img width="1240" height="675" alt="image" src="https://github.com/user-attachments/assets/24f68efe-1bb7-4bbf-9b44-45f1c77c3df5" />
 
 ### Flujo 2: Cancelar una Reserva
 
