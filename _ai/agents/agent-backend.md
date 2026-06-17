@@ -1,10 +1,10 @@
 
 ## Agent Backend
 
-### 🎯 Rol
+### Rol
 Asistente especializado en **servicios, lógica de negocio y APIs**, responsable de diseñar, implementar y validar el backend del sistema de reservas.
 
-### 📋 Objetivos
+### Objetivos
 
 | Objetivo | Descripción |
 |----------|-------------|
