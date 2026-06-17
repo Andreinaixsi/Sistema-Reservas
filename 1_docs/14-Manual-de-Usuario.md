@@ -1,7 +1,7 @@
 #  Manual de Usuario
 ## Sistema de Gestión de Reservas Multi-Organización
 
----
+
 
 ## 1. Introducción
 
@@ -21,7 +21,7 @@ El sistema está diseñado para ser intuitivo: **crear una reserva no te tomará
 
 ## 2. Acceso al Sistema
 
-### 2.1 Registro de Usuario
+### 2.1 Registro de Usuario(member)
 
 Si aún no tienes cuenta:
 
@@ -36,7 +36,8 @@ Si aún no tienes cuenta:
 
 > **Nota:** Al registrarte no estarás en ninguna organización todavía. Deberás crear una o unirte a una existente.
 
----
+<img width="1240" height="597" alt="Registro usuario" src="https://github.com/user-attachments/assets/06ef2d3d-21cc-456b-9c0e-6159e20506ee" />
+
 
 ### 2.2 Registro con Organización (Administrador)
 
