@@ -225,9 +225,9 @@ Si tienes problemas con el sistema:
 |----------------------|---------------|
 | Registrarme | Clic en **Registrarse** |
 | Iniciar sesión | Clic en **Iniciar Sesión** |
-| Reservar un espacio | Menú → **Recursos** → Seleccionar espacio → **Reservar** |
+| Reservar un espacio | Menú → **Mis reservas** → Seleccionar espacio → **Reservar** |
 | Cancelar una reserva | Menú → **Mis Reservas** → **Cancelar** |
-| Ver horarios ocupados | Menú → **Recursos** → Seleccionar espacio |
-| Crear/editar espacios | Menú → **Administrar Recursos** (solo admin) |
-| Cambiar reglas de reserva | Menú → **Configuración** (solo admin) |
+| Ver horarios ocupados | Menú → **Mis reservas** → Seleccionar espacio |
+| Crear/editar espacios | Menú → **Gestionar areas comunes** (solo admin) |
+| Cambiar reglas de reserva | Menú → **Reglas de Reserva** (solo admin) |
 | Agregar miembros | Menú → **Miembros** (solo admin) |
