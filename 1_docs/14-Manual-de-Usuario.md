@@ -15,6 +15,7 @@ Con este sistema podrás:
 - (Si eres administrador) Gestionar los espacios y miembros de tu organización.
 
 El sistema está diseñado para ser intuitivo: **crear una reserva no te tomará más de 3 clics**.
+<img width="1240" height="597" alt="pantalla principal" src="https://github.com/user-attachments/assets/e90a7422-3b17-437a-8297-0da51869f10b" />
 
 ---
 
