@@ -235,8 +235,9 @@
 - Se presentaron fallas operativas con la herramienta Git en la computadora principal, lo que impidió realizar el control de versiones de forma regular y obligó a utilizar un equipo portátil secundario.
 - Al realizar el despliegue desde la estación alterna, un error en la ejecución del commit inicial limpio sobrescribió el historial en GitHub, ocasionando el borrado accidental de la documentación técnica previamente almacenada.
 
-- [portatil secundario](assets/imágenes/Laptop-git.png)
-- 
+
+ - [portatil secundario](assets/imágenes/Laptop-git.png)
+
 ## Registro #7 — Manuales de usuario y técnico
 
 **Fecha:** 17 de Junio de 2026
