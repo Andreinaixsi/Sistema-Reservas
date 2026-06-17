@@ -32,7 +32,7 @@ Si aún no tienes cuenta:
    - **Contraseña**: mínimo 6 caracteres.
    - **Nombre completo**: cómo quieres que te identifiquen en el sistema.
 4. Haz clic en **"Registrarse"**.
-5. Si todo es correcto, verás una confirmación y serás redirigido al inicio de sesión.
+5. Si todo es correcto serás redirigido al inicio de sesión.
 
 > **Nota:** Al registrarte no estarás en ninguna organización todavía. Deberás crear una o unirte a una existente.
 
