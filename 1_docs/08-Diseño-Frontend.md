@@ -32,10 +32,9 @@ La navegación se gestiona con **React Router**. La estructura de navegación ca
   - Las rutas protegidas redirigen automáticamente al `/login`.
 
 - **Usuario autenticado:**
-  - **Navbar superior**: muestra el nombre del usuario, un selector de organización activa, y un icono de perfil.
-  - **Sidebar** (panel lateral): enlaces a `Dashboard`, `Recursos`, `Mis Reservas`.
+  - **Navbar superior**: muestra el nombre del usuario, un selector de organización activa.
+  - **Sidebar** (panel lateral): enlaces a `Dashboard`, `Áreas Comúnes`, `Mis Reservas`.
   - Si el usuario es **administrador**, el Sidebar muestra un segundo bloque "Administración" con enlaces a `Gestionar Recursos`, `Miembros` y `Configuración`.
-  - En dispositivos móviles, el Sidebar se colapsa en un menú tipo "hamburguesa".
 
 ### 7.4 Componentes Clave
 
@@ -43,8 +42,8 @@ La interfaz se construye con componentes reutilizables, principalmente:
 
 | Componente | Descripción | Ubicación |
 | :--- | :--- | :--- |
-| **Navbar** | Barra de navegación superior. Contiene el logo, enlaces principales, selector de organización y menú de usuario. | `shared/components/Navbar.jsx` |
-| **Sidebar** | Panel lateral de navegación. Muestra enlaces agrupados por funcionalidad. Se oculta en móviles. | `shared/components/Sidebar.jsx` |
+| **Navbar** | Barra de navegación superior. Contiene el logo, organización a la que pertenece, usuario y rol. | `shared/components/Navbar.jsx` |
+| **Sidebar** | Panel lateral de navegación. Muestra enlaces agrupados por funcionalidad. | `shared/components/Sidebar.jsx` |
 | **ResourceCard** | Tarjeta que muestra nombre, descripción y capacidad de un recurso. Al hacer clic, navega al detalle. | `features/resources/components/ResourceCard.jsx` |
 | **ReservationForm** | Formulario controlado para seleccionar fecha, hora de inicio y fin. Incluye validación de rango y reglas de la organización. | `features/reservations/components/ReservationForm.jsx` |
 | **ReservationList** | Tabla o lista de reservas. Muestra estado, recurso, horario y un botón de "Cancelar" si la reserva está activa y pertenece al usuario. | `features/reservations/components/ReservationList.jsx` |
