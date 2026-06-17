@@ -221,8 +221,19 @@
 **Fecha:** 16 de Junio de 2026
 
 **Avance realizado:**
-- Se realizaron pruebas a la aplicacion web. Hubo errores principales ccon el login porque abria directamente al usuario administrador pero se solucionó
-- Nos encontramos con varios problemas en la pc no pudimos utilizar git y tuvimos que utlizar una laptop para subir el proyecto a github , y se tuvo el error hacer un commit inicial limpio que borro todo lo que estaba de decumentación en el respositorio, pero se solucionó hasta el momento
+-Se ejecutaron los protocolos de pruebas sobre la aplicación web, detectándose una anomalía crítica en el módulo de autenticación (login) que redirigía por defecto a la interfaz de administración. Dicho inconveniente fue solventado con éxito, garantizando la restricción de accesos correspondientes a cada rol.
+- A pesar de los inconvenientes con el entorno local, se logró gestionar y subir el  proyecto al repositorio remoto en GitHub utilizando una estación de trabajo alterna.
 
+  
 
+**Problemas encontrados:**
+- El sistema actual carece de los módulos destinados a la Edición de Perfil de usuario y al mecanismo de Recuperación de Contraseñas, quedando registrados como requerimientos pendientes.
+- Se presentaron fallas operativas con la herramienta Git en la computadora principal, lo que impidió realizar el control de versiones de forma regular y obligó a utilizar un equipo portátil secundario.
+- l realizar el despliegue desde la estación alterna, un error en la ejecución del commit inicial limpio sobrescribió el historial en GitHub, ocasionando el borrado accidental de la documentación técnica previamente almacenada.
 
+## Registro #7 — Manuales de usuario y técnico
+
+**Fecha:** 17 de Junio de 2026
+
+**Avance realizado:**
+-Se realizaron los manuales con la explicación detallada de como instalar debidamente el Sistema en local y como debe Ingresar el usuario al sistema, mostrando todos los flujos correspondientes.
