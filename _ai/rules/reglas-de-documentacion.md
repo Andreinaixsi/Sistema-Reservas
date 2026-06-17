@@ -1,8 +1,8 @@
 # Reglas de Documentación
 
 1. Toda sección debe tener propósito claro.
-2. No dejar títulos vacíos al entregar.
-3. Los documentos deben coincidir con el sistema implementado.
-4. Los cambios importantes deben reflejarse en la bitácora.
-5. Todo diagrama debe tener nombre, fecha y breve explicación.
-6. El índice `docs/00-index.md` debe mantenerse actualizado.
+2. Mantén un tono accesible
+3. Si detectas una inconsistencia, señala el documento, la sección y propone la corrección.
+4. Los documentos deben coincidir con el sistema implementado.
+7. Prioriza los cambios que más impacto tengan en la comprensión del proyecto.
+8. Respeta el formato Markdown y la estructura de carpetas existente.
