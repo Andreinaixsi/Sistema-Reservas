@@ -76,12 +76,13 @@
 
 ---
 
-## Registro #4 — Documentación Técnica Completa
+## Registro #4 — Documentación Técnica 
 
 **Fecha:** 30 de abril de 2026
 
 **Avance realizado:**
-- Documentación de Arquitectura General
+- Diseño de arquitectura del sistema (cliente-servidor, monolito modular)
+- Selección del stack tecnológico (React, FastAPI, PostgreSQL)
 - Adición de RN-011 (Email único al editar) a Reglas de Negocio
 
 **Documentos actualizados:**
@@ -125,7 +126,7 @@
 **Fecha:** 20 de mayo de 2026
 
 **Avances realizado:**
-- Creacion de modelo de datos relacional 
+- Creacion de modelo de datos relacional (7 tablas: users, organizations, organization_members, organization_settings, resources, reservations)
 - Creación de cuenta en Neon (neon.tech)
 - Creación del proyecto `neondb` en Neon
 - Obtención de la URL de conexión
@@ -150,15 +151,14 @@
 - 
 ---
 
-## Registro #7 — diagramas de ER y MER, y de flujo de datos 
+## Registro #7 — Api e interfaces
 
 **Fecha:** 24 de Mayo de 2026
 
 **Avance realizado:**
--Creacion  Diagramas 
-
+- Creacion de documentacion de apis e interfaces
 **Documentos actualizados:**
-- [Modelo de datos](10-Modelo-de-Datos.md)
+- [Api e interfaces](11-Api-e-Interfaces.md)
 
 **Código modificado:**
 -
@@ -180,17 +180,34 @@
 - Se actualizó RNF-001 (Usabilidad) y CU-009 para requerir layouts de pantallas vacías interactivas con CTAs dinámicos en base al rol (Admin vs Miembro) para prevenir confusión en usuarios no técnicos.
 
 **Documentos actualizados:**
-- [Modelo de datos](10-Modelo-de-Datos.md)
+- [Requerimientos funcionales](03-Requerimientos-Funcionales.md) Se agregó RF-012: Unirse por Código 
+- [Requerimientos No Funcionales](04-Requerimientos-No-Funcionales.md) RNF-001 (Usabilidad). Empty States interactivos 
+- [Modelo de datos](10-Modelo-de-Datos.md) Entidad: organizations actualizada 
+- [Casos de uso](05-Casos-de-Uso.md) CU-012 (Unirse por Código), CU-006, CU-008, CU-009 actualizados 
+- [Api e interfaces](11-Api-e-Interfaces.md) API-002, API-004, API-015, API-016, API-017 
+- [Diseño Frontend](08-Diseño-Frontend.md) Estructura de Pantallas actualizada ✅
 
 **Código modificado:**
 -
 
 **Problemas encontrados:**
--
+- El usuario no tenía forma autónoma de unirse, quedando bloqueado a la espera de que el administrador lo agregue.
+- Falta de personalización de etiquetas. Si un usuario está en el contexto de un condominio, espera leer términos como "Residencias" y "Salón de fiestas".
+- Si el frontend no muestra explícitamente en qué huso horario se está haciendo la reserva, un usuario que viaje o tenga su dispositivo mal configurado podría reservar en el horario equivocado, generando solapamientos accidentales.
+- Las organizaciones pueden configurar días de anticipación y duración máxima (RF-005). Si estas reglas no se muestran de forma clara en la interfaz antes de que el usuario intente reservar (CU-006), el usuario se enfrentará a mensajes de error de validación sin entender por qué su horario fue rechazado.
+
 **Próximo paso:**
--
+- actualizar la tabla en neon 
 
+## Registro #7 — Actualizacion base de datos, 
 
+**Fecha:** 6 de Junio de 2026
+**Avance realizado:**
+- Creación de la estructura de carpetas del proyecto (backend, frontend, database)
+- Configuración del entorno virtual de Python (venv)
+- Instalación de dependencias (FastAPI, SQLAlchemy, uvicorn, python-jose, bcrypt, python-dotenv)
+- Agregadas columnas resource_label_singular, resource_label_plural e invite_code a la tabla organizations
+- Personalización de etiquetas para la organización de prueba ("Salón", "Salones")
 
-- **Base de Datos:** Neon (PostgreSQL en la nube)
-- **Fechas límite:** Entrega final: [dd/mm/aaaa]
+**Código modificado:**
+- Base de datos Neon — Tabla organizations actualizada
