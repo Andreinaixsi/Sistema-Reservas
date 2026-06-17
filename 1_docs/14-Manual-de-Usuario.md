@@ -134,7 +134,8 @@ Si ya no necesitas una reserva que hiciste:
 4. Confirma la cancelación en la ventana emergente.
 5. La reserva quedará cancelada y el horario se liberará para otros usuarios.
 
----
+<img width="1240" height="597" alt="image" src="https://github.com/user-attachments/assets/d867fb5b-5c98-4d59-9e8d-8aa51cbdee54" />
+
 
 ### Flujo 3: Ver Disponibilidad de un Espacio
 
@@ -153,10 +154,19 @@ Si eres administrador, puedes crear, editar y eliminar espacios:
 
 **Crear un nuevo espacio:**
 
-1. Ve a **"Administrar Recursos"** en el menú lateral.
-2. Haz clic en **"Nuevo Recurso"**.
+1. Ve a **"Gestionar áreas comúnes"** en el menú lateral.
+
+
+<img width="1224" height="589" alt="image" src="https://github.com/user-attachments/assets/61c6d618-bfb6-4587-a480-66d54e4f9073" />
+
+2. Haz clic en **"Crear Área Común"**.
+   
+<img width="1224" height="589" alt="image" src="https://github.com/user-attachments/assets/ee0ec250-57cf-44f7-b4e0-6a80d17e33ed" />
+
 3. Completa los campos: nombre, descripción y capacidad.
-4. Haz clic en **"Crear"**.
+4. Haz clic en **"Guardar"**.
+<img width="1224" height="589" alt="image" src="https://github.com/user-attachments/assets/e34df901-640d-4028-9a5c-966a28ebb6c9" />
+
 
 **Editar o eliminar un espacio:**
 
@@ -164,21 +174,22 @@ Si eres administrador, puedes crear, editar y eliminar espacios:
 2. Haz clic en el ícono de **editar** (lápiz) o **eliminar** (papelera).
 3. Realiza los cambios o confirma la eliminación.
 
----
+<img width="1224" height="589" alt="image" src="https://github.com/user-attachments/assets/b8fffe9f-91db-4d68-a5c1-e7ae4bd246f3" />
+
 
 ### Flujo 5: Configurar Reglas de Reserva (Solo Administrador)
 
 Puedes personalizar los límites de reserva para tu organización:
 
-1. Ve a **"Configuración"** en el menú lateral.
+1. Ve a **"Reglas de Reserva"** en el menú lateral.
 2. Modifica los valores:
-   - **Horario permitido**: ej. de 06:00 a 22:00.
-   - **Duración máxima**: ej. 120 minutos.
-   - **Días de anticipación**: ej. 7 días.
-3. Haz clic en **"Guardar"**.
+   - **Horario permitido**: de apertura y de cierre
+   - **Días de anticipación**: maxima y minima
+3. Haz clic en **"Guardar Cambios"**.
 4. Las nuevas reglas se aplicarán a todas las reservas futuras.
 
----
+<img width="1224" height="620" alt="image" src="https://github.com/user-attachments/assets/5643be46-5a07-4c80-87a5-738204acfec3" />
+
 
 ### Flujo 6: Agregar Miembros (Solo Administrador)
 
@@ -197,20 +208,8 @@ Para que otros usuarios se unan a tu organización:
 4. Haz clic en **"Agregar"**.
 5. El usuario aparecerá en la lista de miembros.
 
----
+<img width="1224" height="595" alt="image" src="https://github.com/user-attachments/assets/8af3dfd9-7949-40fc-a80d-3ab3d19233da" />
 
-### Flujo 7: Editar tu Perfil
-
-Para cambiar tus datos personales:
-
-1. Haz clic en tu nombre (esquina superior derecha) y selecciona **"Mi Perfil"**.
-2. Puedes modificar:
-   - **Nombre completo**
-   - **Email**
-   - **Contraseña** (debes ingresar tu contraseña actual para cambiarla)
-3. Haz clic en **"Guardar cambios"**.
-
----
 
 ##  Soporte
 
@@ -232,4 +231,3 @@ Si tienes problemas con el sistema:
 | Crear/editar espacios | Menú → **Administrar Recursos** (solo admin) |
 | Cambiar reglas de reserva | Menú → **Configuración** (solo admin) |
 | Agregar miembros | Menú → **Miembros** (solo admin) |
-| Cambiar mis datos | Icono de perfil → **Mi Perfil** |
