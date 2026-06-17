@@ -244,3 +244,5 @@
 
 **Avance realizado:**
 -Se realizaron los manuales con la explicación detallada de como instalar debidamente el Sistema en local y como debe Ingresar el usuario al sistema, mostrando todos los flujos correspondientes.
+
+[evidencia sistema ejecución](_deliverables/evidencia/ejecución)
