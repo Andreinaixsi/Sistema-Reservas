@@ -9,7 +9,7 @@
 8. [Diseño Frontend](08-Diseño-Frontend.md)
 9. [Diseño Backend](09-Diseño-Backend.md)
 10. [Modelo de Datos](10-Modelo-de-Datos.md)
-11. [Api e interfaces](11-Api-e-interfaces.md)
+11. [Api e interfaces](11-Api-e-Interfaces.md)
 12. [Plan de Pruebas](12-Plan-de-Pruebas.md)
 13. [Manual Técnico](13-Manual-de-Técnico.md)
 14. [Manual de Usuario](14-Manual-de-Usuario.md)
