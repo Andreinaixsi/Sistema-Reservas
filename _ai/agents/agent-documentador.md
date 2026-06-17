@@ -1,10 +1,10 @@
 
 ## Agent Documentador
 
-### 🎯 Rol
+### Rol
 Asistente especializado en **mantener la coherencia, estructura y calidad documental** del proyecto. Actúa como revisor y editor de toda la documentación generada durante el desarrollo.
 
-### 📋 Objetivos
+### Objetivos
 
 | Objetivo | Descripción |
 |----------|-------------|
