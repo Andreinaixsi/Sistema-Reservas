@@ -1,4 +1,4 @@
-# 📓 Bitácora de Avances
+#  Bitácora de Avances
 ## Sistema de Gestión de Reservas Multi-Organización
 
 ### Equipo
@@ -127,7 +127,7 @@
 
 **Avances realizado:**
 - Creacion de modelo de datos relacional (7 tablas: users, organizations, organization_members, organization_settings, resources, reservations)
-- Creación de cuenta en Neon (neon.tech)
+- Creación de cuenta en Neon 
 - Creación del proyecto `neondb` en Neon
 - Obtención de la URL de conexión
 - Instalación y configuración de pgAdmin 4
@@ -148,7 +148,7 @@
 -  Error con la restricción `EXCLUDE` usando `tstzrange` en Neon (incompatible). Solución: eliminar la restricción de la BD y mover la validación de solapamiento al backend.
 
 **Próximo paso:**
-- 
+- [Imagenes neon y postgre](assest/imagenes/Neon1.jpeg)
 ---
 
 ## Registro #7 — Api e interfaces
