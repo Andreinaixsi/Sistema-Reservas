@@ -20,7 +20,7 @@ La aplicación se organiza en las siguientes pantallas principales, accesibles s
 | **Detalle de Recurso** | `/resources/:id` | Vista de calendario/lista semanal con disponibilidad del recurso (RF-008). Botón "Nueva Reserva" que despliega el formulario de creación (RF-006). | Usuario autenticado |
 | **Mis Reservas** | `/my-reservations` | Listado de reservas activas y canceladas del usuario autenticado. Permite cancelar (RF-007) haciendo clic en un botón. | Usuario autenticado |
 | **Administrar Recursos** | `/admin/resources` | CRUD de recursos: tabla con acciones de editar y eliminar, y botón para crear nuevo recurso (RF-004). | Administrador |
-| **Configuración** | `/admin/settings` | Formulario para modificar reglas de reserva de la organización (RF-005): horario permitido, duración máxima, anticipación. | Administrador |
+| **Configuración** | `/admin/settings` | Formulario para modificar reglas de reserva de la organización (RF-005): horario permitido, duración máxima y mínima, anticipación. | Administrador |
 | **Miembros** | `/admin/members` | Tabla de miembros de la organización con botón "Agregar miembro" (RF-010), visualización, desactivación y regeneración del código de invitación (RF-012). | Administrador |
 
 ### 7.3 Navegación
