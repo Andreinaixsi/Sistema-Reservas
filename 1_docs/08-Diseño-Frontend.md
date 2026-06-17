@@ -11,7 +11,7 @@ La aplicación se organiza en las siguientes pantallas principales, accesibles s
 | Pantalla | Ruta | Descripción | Actor(es) |
 | :--- | :--- | :--- | :--- |
 | **Inicio / Landing** | `/` | Página de bienvenida con breve descripción del sistema y botones para **Iniciar Sesión** o **Registrarse**. | Usuario no autenticado |
-| **Login** | `/login` | Formulario con campos de email y contraseña. | Usuario no autenticado |
+| **Login** | `/login` | Formulario con campos de email,nombre y contraseña. | Usuario no autenticado |
 | **Registro** | `/register` | Formulario para crear cuenta (RF-001). Opción de marcar "Quiero crear una organización" para pasar al flujo RF-002. | Usuario no autenticado |
 | **Registro de Org.** | `/register-org` | Formulario extendido que solicita nombre de la organización, tipo y los datos del usuario administrador (RF-002). | Usuario no autenticado |
 | **Onboarding** | `/onboarding` | Pantalla para usuarios registrados sin organización. Permite elegir entre crear una nueva organización (CU-002) o unirse a una existente ingresando un código (CU-012). | Usuario autenticado sin org |
