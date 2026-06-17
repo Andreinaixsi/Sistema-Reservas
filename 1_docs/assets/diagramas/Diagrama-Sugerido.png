@@ -1,0 +1,53 @@
+graph TD
+    subgraph Usuario["👤 Usuario"]
+        A[Navegador Web]
+    end
+
+    subgraph Frontend["🖥️ Frontend - React SPA"]
+        B[Interfaz de Usuario]
+        C[React Query - Estado]
+        D[React Router - Navegación]
+    end
+
+    subgraph Backend["⚙️ Backend - FastAPI"]
+        E[Middleware JWT]
+        F[Controladores - Endpoints]
+        G[Servicios - Lógica de Negocio]
+        H[Modelos SQLAlchemy]
+    end
+
+    subgraph Persistencia["🗄️ Base de Datos"]
+        I[(PostgreSQL / Neon)]
+    end
+
+    %% Flujo principal: Crear Reserva
+    A -->|"1. POST /reservations
+    (JWT + datos)"| B
+    B -->|"2. Validar formulario"| C
+    C -->|"3. Enviar petición"| D
+    D -->|"4. HTTP Request"| E
+    E -->|"5. Token válido?"| F
+    F -->|"6. Delegar"| G
+    G -->|"7. Validar reglas
+    Verificar solapamiento"| H
+    H -->|"8. Consulta SQL"| I
+    I -->|"9. Resultado"| H
+    H -->|"10. Respuesta"| G
+    G -->|"11. Éxito / Error"| F
+    F -->|"12. JSON Response
+    (201 / 409 / 403)"| D
+    D -->|"13. Actualizar estado"| C
+    C -->|"14. Re-renderizar"| B
+    B -->|"15. Mostrar confirmación
+    o error"| A
+
+    %% Estilos
+    classDef usuario fill:#fce4ec,stroke:#c62828,stroke-width:2px,color:#000
+    classDef frontend fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef backend fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#000
+    classDef bd fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000
+
+    class A usuario
+    class B,C,D frontend
+    class E,F,G,H backend
+    class I bd
