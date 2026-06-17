@@ -1,18 +1,5 @@
 # Sistema Web de Gestión y Control de Reservas
 
-Este es el repositorio del Sistema Web de Gestión y Control de Reservas de recursos multi-organización. Contiene el frontend (React + Vite + Tailwind) y el backend (FastAPI + SQLAlchemy + PostgreSQL).
-
-## Estructura del Proyecto
-
-- `frontend/`: Aplicación de interfaz de usuario.
-- `backend/`: API REST del sistema de reservas.
-
-Aquí tienes el **README.md** completo para finalizar tu proyecto. Es profesional, claro y cubre todo lo necesario para un proyecto final de semestre.
-
----
-
-# 🏢 Sistema de Gestión de Reservas Multi-Organización
-
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react)](https://react.dev/)
 [![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-4169E1?logo=postgresql)](https://www.postgresql.org/)
