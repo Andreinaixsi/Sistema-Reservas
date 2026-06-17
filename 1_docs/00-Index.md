@@ -5,7 +5,7 @@
 4. [Requerimientos No Funcionales](04-Requerimientos-No-Funcionales.md)
 5. [Casos de Uso](05-Casos-de-Uso.md)
 6. [Reglas de negocio](06-Reglas-de-negocio.md)
-7. [Arquitectura General](07-Arquitectura-General.md)
+7. [Arquitectura General](07-Arquitectura-general.md)
 8. [Diseño Frontend](08-Diseño-Frontend.md)
 9. [Diseño Backend](09-Diseño-Backend.md)
 10. [Modelo de Datos](10-Modelo-de-Datos.md)
