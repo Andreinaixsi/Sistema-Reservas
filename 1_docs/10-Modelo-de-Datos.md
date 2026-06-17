@@ -184,4 +184,4 @@ recursos. Es la entidad central del sistema.
 
 ### Diagramas
 - [ER conceptual](assets/diagramas/Diagrama-ER-conceptual.jpg)
-- [ER](assets/diagramas/DiagramaER.jpg) 
+- [ER](assets/diagramas/DiagramER.jpg) 
