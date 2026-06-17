@@ -1,3 +1,4 @@
+# Objetivos y Alcance
 ## 1. Objetivo general  
 Desarrollar una aplicación web multi-organización para la gestión y control de reservas de recursos compartidos, que permita a diferentes entidades (como condominios, universidades o empresas) administrar de forma eficiente sus espacios, evitando conflictos de horarios y centralizando la información en un sistema estructurado y escalable.
 
