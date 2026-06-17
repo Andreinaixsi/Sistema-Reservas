@@ -1,6 +1,6 @@
 ##  Arquitectura Técnica
 
-### 2.1 Stack Tecnológico (Versión Optimizada)
+### 2.1 Stack Tecnológico 
 
 | Capa | Tecnología | Justificación |
 |------|------------|--------------|
