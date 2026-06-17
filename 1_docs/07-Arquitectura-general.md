@@ -1,6 +1,6 @@
 ##  Arquitectura Técnica
 
-### 2.1 Stack Tecnológico 
+### 1 Stack Tecnológico 
 
 | Capa | Tecnología | Justificación |
 |------|------------|--------------|
@@ -13,7 +13,7 @@
 | **ORM** | SQLAlchemy | Control total del modelo |
 | **Testing** | pytest (básico) | Pruebas esenciales |
 
-### 2.2 Arquitectura General 
+### 2 Arquitectura General 
 
 La aplicación está construida bajo un modelo **Cliente-Servidor**, donde el frontend y el backend están completamente desacoplados.
 
@@ -35,7 +35,7 @@ La aplicación está construida bajo un modelo **Cliente-Servidor**, donde el fr
 6.  **Hosting / Despliegue**:
      La base de datos está en la nube (Neon) para facilitar el desarrollo en equipo.
 
-### 2.3 Estilo Arquitectónico
+### 3 Estilo Arquitectónico
 
 El sistema sigue una combinación de los siguientes estilos, lo que lo hace robusto y fácil de mantener:
 
@@ -48,7 +48,7 @@ El sistema sigue una combinación de los siguientes estilos, lo que lo hace robu
     - **Servicios:** Contienen la lógica de negocio (validaciones, reglas, etc.).
     La "Vista" (View) del MVC clásico se traslada completamente al frontend (React).
 
-### 2.4 Componentes Principales
+### 4 Componentes Principales
 
 | Componente | Tecnología | Descripción |
 | :--- | :--- | :--- |
@@ -56,7 +56,7 @@ El sistema sigue una combinación de los siguientes estilos, lo que lo hace robu
 | **API (Backend)** | Python, FastAPI | Lógica de negocio, validación de reglas y solapamientos, autenticación JWT, y comunicación con la BD mediante SQLAlchemy. |
 | **Base de Datos** | PostgreSQL (Neon) | Persistencia de toda la información del sistema, garantizando la integridad referencial y el aislamiento de datos entre organizaciones. |
 
-### 2.5 Flujo General de Datos
+### 5 Flujo General de Datos
 
 1.  El usuario interactúa con la **SPA (React)** en el navegador (ej: rellena el formulario de reserva).
 2.  La SPA realiza una petición HTTP a un endpoint de la **API REST (FastAPI)**.
@@ -68,10 +68,10 @@ El sistema sigue una combinación de los siguientes estilos, lo que lo hace robu
 8.  El backend formatea la respuesta y la envía al frontend en formato **JSON**.
 9.  El frontend actualiza la interfaz de usuario con los nuevos datos (ej: muestra la reserva creada o un mensaje de error).
 
-### 2.6 Diagrama Sugerido
+### 6 Diagrama Sugerido
+[Diagrama de flujo de datos](assets/diagramas/Diagrama-sugerido.png)
 
-
-### 2.7 Decisiones Técnicas Relevantes
+### 7 Decisiones Técnicas Relevantes
 
 - **Python y FastAPI**: Se eligió Python por su legibilidad y rapidez de desarrollo. FastAPI añade alto rendimiento y documentación automática (Swagger).
 - **React**: Framework popular basado en componentes. Permite crear interfaces de usuario dinámicas y reutilizables.
