@@ -1,4 +1,4 @@
-# 🧪 Plan de Pruebas
+# Plan de Pruebas
 ## Sistema de Gestión de Reservas Multi-Organización
 
 ---
