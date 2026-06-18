@@ -18,7 +18,7 @@ Aplicación web que permite a diferentes organizaciones (condominios, universida
 - 🏢 Creación y gestión de organizaciones (multi-tenant)
 - 📦 Gestión de recursos (CRUD) con etiquetas personalizadas
 - 📅 Reservas con validación automática de conflictos de horarios
-- ❌ Cancelación de reservas con control de permisos
+- ❌ Cancelación de reservas 
 - 📊 Visualización de disponibilidad con timezone de la organización
 - 🔗 Sistema de invitación por código para unirse a organizaciones
 - 👤 Edición de perfil de usuario
@@ -42,34 +42,7 @@ Aplicación web que permite a diferentes organizaciones (condominios, universida
 ## 📁 Estructura del Proyecto
 
 ```
-reservas-app/
-├── backend/
-│   ├── src/
-│   │   ├── auth/           # Autenticación (JWT)
-│   │   ├── users/          # Perfil de usuario
-│   │   ├── organizations/  # CRUD de organizaciones y miembros
-│   │   ├── resources/      # CRUD de recursos
-│   │   ├── reservations/   # Lógica de reservas
-│   │   ├── common/         # Conexión BD, errores, middleware
-│   │   └── app.py          # Punto de entrada
-│   ├── tests/
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── features/       # Funcionalidades (auth, resources, reservations...)
-│   │   ├── shared/         # Componentes reutilizables (Navbar, Button, Modal...)
-│   │   └── app/            # Rutas y estado global
-│   └── package.json
-├── database/
-│   └── schema.sql          # Script de creación de la base de datos
-├── docs/                   # Documentación completa del proyecto (16 documentos)
-├── assets/
-│   └── diagramas/          # Diagramas de arquitectura, ER, casos de uso
-├── agents.md               # Definición de agentes Antigravity
-├── skills/                 # Reglas para agentes
-├── bitacora.md             # Bitácora de avances
-├── .env.example            # Ejemplo de variables de entorno
-└── README.md               # Este archivo
+
 ```
 
 ---
@@ -94,27 +67,6 @@ cd reservas-app
 
 ---
 
-### 2. Configurar la Base de Datos
-
-#### Opción A: Usar Neon (recomendado)
-
-1. Crea una cuenta gratuita en [neon.tech](https://neon.tech)
-2. Crea un proyecto y copia la **URL de conexión**
-3. Ejecuta el script SQL en pgAdmin o DBeaver:
-   ```bash
-   psql "TU_URL_DE_NEON" -f database/schema.sql
-   ```
-
-#### Opción B: Usar PostgreSQL local
-
-1. Instala PostgreSQL
-2. Crea una base de datos llamada `reservasdb`
-3. Ejecuta el script:
-   ```bash
-   psql -U postgres -d reservasdb -f database/schema.sql
-   ```
-
----
 
 ### 3. Configurar el Backend
 
@@ -163,32 +115,16 @@ npm run dev
 
 El frontend estará disponible en: `http://localhost:5173`
 
----
-
-## 📊 Datos de Prueba
-
-El script SQL incluye datos de prueba:
-
-| Usuario | Email | Contraseña | Rol |
-|---------|-------|------------|-----|
-| Admin Principal | admin@test.com | test123 | Administrador |
-| Usuario Normal | usuario@test.com | test123 | Miembro |
-
-**Organización:** Edificio Las Palmas (Código de invitación: `ABC12345`)
-
-**Recursos:** Salón de Eventos, Piscina, Gimnasio
-
----
 
 ## 📚 Documentación
 
-La documentación completa del proyecto se encuentra en la carpeta [`docs/`](./docs/):
+La documentación completa del proyecto se encuentra en la carpeta [`_docs/`](./_docs/):
 
 | Documento | Descripción |
 |-----------|-------------|
-| [📄 Índice](./docs/00-index.md) | Índice completo de la documentación |
-| [📋 Reglas de Documentación](./docs/00-reglas-documentacion.md) | Reglas para mantener la documentación |
-| [📝 Planteamiento del Problema](./docs/01-planteamiento-problema.md) | Descripción del problema a resolver |
+| [📄 Índice](./_docs/00-index.md) | Índice completo de la documentación |
+| [📋 Reglas de Documentación](./_docs/00-.md) | Reglas para mantener la documentación |
+| [📝 Planteamiento del Problema](./_docs/01-planteamiento-problema.md) | Descripción del problema a resolver |
 | [🎯 Objetivos y Alcance](./docs/02-objetivos-alcance.md) | Objetivos del MVP |
 | [✅ Requisitos Funcionales](./docs/03-requisitos-funcionales.md) | 12 RF documentados |
 | [📐 Requisitos No Funcionales](./docs/04-requisitos-no-funcionales.md) | 5 RNF documentados |
