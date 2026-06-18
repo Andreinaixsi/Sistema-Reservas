@@ -191,5 +191,3 @@ Este proyecto es parte de un trabajo académico.
 | **Registros en bitácora** | 7 |
 
 ---
-
-¿Necesitas ajustar algo del README o quieres que genere el commit final para subir todo a GitHub?
