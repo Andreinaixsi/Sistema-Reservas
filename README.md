@@ -164,27 +164,21 @@ pytest tests/
 | Nombre |
 |--------|
 | José Sanchez |
-| [Andreina Martinez] |
+| Andreina Martinez|
 
----
+
 
 ## 📝 Licencia
 
 Este proyecto es parte de un trabajo académico. 
 
----
 
-## 🙏 Agradecimientos
-
-- **Antigravity** - Plataforma de desarrollo asistido por IA
-- **DeepSeek** - Asistente de documentación y análisis
-- **Neon** - Base de datos PostgreSQL en la nube
 
 ## 📊 Resumen Final del Proyecto
 
 | Indicador | Valor |
 |-----------|-------|
-| **Documentos** | 16 en `docs/` + README + bitácora |
+| **Documentos** | 16 en `_docs/` + README + bitácora |
 | **Requisitos Funcionales** | 12 (RF-001 a RF-012) |
 | **Requisitos No Funcionales** | 5 (RNF-001 a RNF-005) |
 | **Reglas de Negocio** | 11 (RN-001 a RN-011) |
@@ -194,7 +188,7 @@ Este proyecto es parte de un trabajo académico.
 | **Casos de Prueba** | 22 (CP-001 a CP-022) |
 | **Agentes Antigravity** | 4 (Arquitecto, Backend, Frontend, Documentador) |
 | **Prompts documentados** | 5 (Casos de Uso, Debugging, Pruebas, Requerimientos, Code Review) |
-| **Registros en bitácora** | 17 |
+| **Registros en bitácora** | 7 |
 
 ---
 
