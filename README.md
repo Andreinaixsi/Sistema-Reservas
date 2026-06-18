@@ -119,28 +119,28 @@ El frontend estará disponible en: `http://localhost:5173`
 
 La documentación completa del proyecto se encuentra en la carpeta [`_docs/`](./_docs/):
 
-| Documento | Descripción |
-|-----------|-------------|
-| [📄 Índice](./_docs/00-index.md) | Índice completo de la documentación |
-| [📋 Reglas de Documentación](./_docs/00-.md) | Reglas para mantener la documentación |
-| [📝 Planteamiento del Problema](./_docs/01-planteamiento-problema.md) | Descripción del problema a resolver |
-| [🎯 Objetivos y Alcance](./docs/02-objetivos-alcance.md) | Objetivos del MVP |
-| [✅ Requisitos Funcionales](./docs/03-requisitos-funcionales.md) | 12 RF documentados |
-| [📐 Requisitos No Funcionales](./docs/04-requisitos-no-funcionales.md) | 5 RNF documentados |
-| [📏 Reglas de Negocio](./docs/05-reglas-negocio.md) | 11 RN documentadas |
-| [🏗️ Arquitectura del Sistema](./docs/06-arquitectura-sistema.md) | Arquitectura general y estilos |
-| [🗄️ Modelo de Base de Datos](./docs/07-modelo-base-datos.md) | 7 tablas documentadas |
-| [🔧 Stack Tecnológico](./docs/08-stack-tecnologico.md) | Tecnologías utilizadas |
-| [📅 Plan de Desarrollo](./docs/09-plan-desarrollo.md) | 8 fases del MVP |
-| [👤 Casos de Uso](./docs/10-casos-de-uso.md) | 12 CU documentados |
-| [🔌 API e Interfaces](./docs/11-api-interfaces.md) | 17 endpoints documentados |
-| [🎨 Diseño Frontend](./docs/12-diseno-frontend.md) | Estructura de pantallas |
-| [⚙️ Diseño Backend](./docs/13-diseno-backend.md) | Módulos y capas |
-| [🧪 Plan de Pruebas](./docs/14-plan-pruebas.md) | 22 casos de prueba |
-| [📖 Manual de Usuario](./docs/15-manual-usuario.md) | Guía para usuarios finales |
-| [🤖 Agentes Antigravity](./docs/16-agentes-antigravity.md) | Definición de agentes de IA |
+## 📚 Documentación
 
----
+La documentación completa del proyecto se encuentra en la carpeta [`_docs/`](./_docs/):
+
+| # | Documento | Descripción |
+|:---|-----------|-------------|
+| 1 | [Planteamiento del Problema](./_docs/01-Planteamiento-del-Problema.md) | Descripción del problema a resolver |
+| 2 | [Objetivos y Alcance](./_docs/02-Objetivos-y-Alcance.md) | Objetivos del MVP y fuera de alcance |
+| 3 | [Requerimientos Funcionales](./_docs/03-Requerimientos-Funcionales.md) | 12 RF documentados (RF-001 a RF-012) |
+| 4 | [Requerimientos No Funcionales](./_docs/04-Requerimientos-No-Funcionales.md) | 5 RNF documentados (RNF-001 a RNF-005) |
+| 5 | [Casos de Uso](./_docs/05-Casos-de-Uso.md) | 12 CU documentados (CU-001 a CU-012) |
+| 6 | [Reglas de Negocio](./_docs/06-Reglas-de-negocio.md) | 11 RN documentadas (RN-001 a RN-011) |
+| 7 | [Arquitectura General](./_docs/07-Arquitectura-general.md) | Estilos arquitectónicos, componentes, flujo de datos |
+| 8 | [Diseño Frontend](./_docs/08-Diseño-Frontend.md) | Estructura de pantallas, navegación, componentes |
+| 9 | [Diseño Backend](./_docs/09-Diseño-Backend.md) | Módulos, capas, lógica de negocio, errores |
+| 10 | [Modelo de Datos](./_docs/10-Modelo-de-Datos.md) | 7 tablas, campos, relaciones, índices |
+| 11 | [API e Interfaces](./_docs/11-Api-e-Interfaces.md) | 17 endpoints documentados |
+| 12 | [Plan de Pruebas](./_docs/12-Plan-de-Pruebas.md) | 22 casos de prueba (CP-001 a CP-022) |
+| 13 | [Manual Técnico](./_docs/13-Manual-de-Técnico.md) | Guía para desarrolladores |
+| 14 | [Manual de Usuario](./_docs/14-Manual-de-Usuario.md) | Guía para usuarios finales |
+| 15 | [Bitácora de Avances](./_docs/15-Bitácora-de-Avances.md) | Registro cronológico del desarrollo |
+
 
 ## 🧪 Ejecutar Pruebas
 
@@ -189,4 +189,6 @@ Este proyecto es parte de un trabajo académico.
 | **Prompts documentados** | 5 (Casos de Uso, Debugging, Pruebas, Requerimientos, Code Review) |
 | **Registros en bitácora** | 7 |
 
----
+
+
+
