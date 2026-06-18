@@ -97,7 +97,6 @@ uvicorn src.app:app --reload
 
 El backend estará disponible en: `http://localhost:8000`
 
-📖 Documentación automática de la API: `http://localhost:8000/docs`
 
 ---
 
