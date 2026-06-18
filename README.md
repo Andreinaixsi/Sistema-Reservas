@@ -158,28 +158,19 @@ pytest tests/
 
 ---
 
-## 🐛 Reportar Problemas
-
-Si encuentras un error o tienes una sugerencia:
-
-1. Revisa la [bitácora de avances](./bitacora.md) para ver si ya está documentado.
-2. Revisa el [plan de pruebas](./docs/14-plan-pruebas.md) para ver si tiene un caso asociado.
-3. Crea un issue en el repositorio.
-
----
 
 ## 👥 Equipo
 
-| Rol | Nombre |
-|-----|--------|
-| Base de Datos | [Tu nombre] |
-| Backend | [Nombre del compañero] |
+| Nombre |
+|--------|
+| José Sanchez |
+| [Andreina Martinez] |
 
 ---
 
 ## 📝 Licencia
 
-Este proyecto es parte de un trabajo académico. Todos los derechos reservados © 2026.
+Este proyecto es parte de un trabajo académico. 
 
 ---
 
@@ -188,44 +179,6 @@ Este proyecto es parte de un trabajo académico. Todos los derechos reservados �
 - **Antigravity** - Plataforma de desarrollo asistido por IA
 - **DeepSeek** - Asistente de documentación y análisis
 - **Neon** - Base de datos PostgreSQL en la nube
-
----
-
-**Desarrollado con ❤️ como proyecto final de semestre**
-```
-
----
-
-## 📓 Entrada en la bitácora
-
-```markdown
-## Registro #17 — Creación del README.md
-
-**Fecha:** 17 de junio de 2026
-
-**Avance realizado:**
-- Creación del README.md completo para el repositorio.
-- Inclusión de badges del stack tecnológico.
-- Documentación de pasos de instalación y configuración.
-- Tabla de datos de prueba para evaluadores.
-- Índice de los 16 documentos en docs/.
-- Sección de agradecimientos y equipo.
-
-**Documentos actualizados:**
-- `README.md` — Nuevo ✅
-
-**Código modificado:**
-- No aplica (documentación)
-
-**Problemas encontrados:**
-- Ninguno
-
-**Próximo paso:**
-- Hacer commit final y push al repositorio.
-- Preparar demo para la defensa del proyecto.
-```
-
----
 
 ## 📊 Resumen Final del Proyecto
 
