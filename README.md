@@ -162,7 +162,7 @@ pytest tests/
 
 | Nombre |
 |--------|
-| José Sanchez |
+| José Sanchez-puga |
 | Andreina Martinez|
 
 
