@@ -101,7 +101,10 @@ cd sistema-de-reservas
     ```bash
     npm install
     ```
-
+3. ** Ejecutar el servidor de desarrollo **
+     ```bash
+    npm run dev
+     ```
 ### Paso 4: Inicialización de la Base de Datos
 El proyecto está configurado para conectarse a una base de datos PostgreSQL.
 1.  Asegúrate de tener un servidor de PostgreSQL activo (local o remoto).
