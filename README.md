@@ -121,25 +121,25 @@ La documentación completa del proyecto se encuentra en la carpeta [`_docs/`](./
 
 ## 📚 Documentación
 
-La documentación completa del proyecto se encuentra en la carpeta [`_docs/`](./_docs/):
+La documentación completa del proyecto se encuentra en la carpeta [`1_docs/`](./1_docs/):
 
 | # | Documento | Descripción |
 |:---|-----------|-------------|
-| 1 | [Planteamiento del Problema](./_docs/01-Planteamiento-del-Problema.md) | Descripción del problema a resolver |
-| 2 | [Objetivos y Alcance](./_docs/02-Objetivos-y-Alcance.md) | Objetivos del MVP y fuera de alcance |
-| 3 | [Requerimientos Funcionales](./_docs/03-Requerimientos-Funcionales.md) | 12 RF documentados (RF-001 a RF-012) |
-| 4 | [Requerimientos No Funcionales](./_docs/04-Requerimientos-No-Funcionales.md) | 5 RNF documentados (RNF-001 a RNF-005) |
-| 5 | [Casos de Uso](./_docs/05-Casos-de-Uso.md) | 12 CU documentados (CU-001 a CU-012) |
-| 6 | [Reglas de Negocio](./_docs/06-Reglas-de-negocio.md) | 11 RN documentadas (RN-001 a RN-011) |
-| 7 | [Arquitectura General](./_docs/07-Arquitectura-general.md) | Estilos arquitectónicos, componentes, flujo de datos |
-| 8 | [Diseño Frontend](./_docs/08-Diseño-Frontend.md) | Estructura de pantallas, navegación, componentes |
-| 9 | [Diseño Backend](./_docs/09-Diseño-Backend.md) | Módulos, capas, lógica de negocio, errores |
-| 10 | [Modelo de Datos](./_docs/10-Modelo-de-Datos.md) | 7 tablas, campos, relaciones, índices |
-| 11 | [API e Interfaces](./_docs/11-Api-e-Interfaces.md) | 17 endpoints documentados |
-| 12 | [Plan de Pruebas](./_docs/12-Plan-de-Pruebas.md) | 22 casos de prueba (CP-001 a CP-022) |
+| 1 | [Planteamiento del Problema](./1_docs/01-Planteamiento-del-Problema.md) | Descripción del problema a resolver |
+| 2 | [Objetivos y Alcance](./1_docs/02-Objetivos-y-Alcance.md) | Objetivos del MVP y fuera de alcance |
+| 3 | [Requerimientos Funcionales](./1_docs/03-Requerimientos-Funcionales.md) | 12 RF documentados (RF-001 a RF-012) |
+| 4 | [Requerimientos No Funcionales](./1_docs/04-Requerimientos-No-Funcionales.md) | 5 RNF documentados (RNF-001 a RNF-005) |
+| 5 | [Casos de Uso](./1_docs/05-Casos-de-Uso.md) | 12 CU documentados (CU-001 a CU-012) |
+| 6 | [Reglas de Negocio](./1_docs/06-Reglas-de-negocio.md) | 11 RN documentadas (RN-001 a RN-011) |
+| 7 | [Arquitectura General](./1_docs/07-Arquitectura-general.md) | Estilos arquitectónicos, componentes, flujo de datos |
+| 8 | [Diseño Frontend](./1_docs/08-Diseño-Frontend.md) | Estructura de pantallas, navegación, componentes |
+| 9 | [Diseño Backend](./1_docs/09-Diseño-Backend.md) | Módulos, capas, lógica de negocio, errores |
+| 10 | [Modelo de Datos](./1_docs/10-Modelo-de-Datos.md) | 7 tablas, campos, relaciones, índices |
+| 11 | [API e Interfaces](./1_docs/11-Api-e-Interfaces.md) | 17 endpoints documentados |
+| 12 | [Plan de Pruebas](./1_docs/12-Plan-de-Pruebas.md) | 22 casos de prueba (CP-001 a CP-022) |
 | 13 | [Manual Técnico](./_docs/13-Manual-de-Técnico.md) | Guía para desarrolladores |
-| 14 | [Manual de Usuario](./_docs/14-Manual-de-Usuario.md) | Guía para usuarios finales |
-| 15 | [Bitácora de Avances](./_docs/15-Bitácora-de-Avances.md) | Registro cronológico del desarrollo |
+| 14 | [Manual de Usuario](./1_docs/14-Manual-de-Usuario.md) | Guía para usuarios finales |
+| 15 | [Bitácora de Avances](./1_docs/15-Bitácora-de-Avances.md) | Registro cronológico del desarrollo |
 
 
 ## 🧪 Ejecutar Pruebas
